@@ -95,6 +95,7 @@ export const updateServings = function (newServings) {
 
   // we do this after the formula so that we can first use the old serving value in the formula
   state.recipe.servings = newServings;
+  console.log('model.updateServings exists?', model.updateServings);
 };
 
 //-------------------------------------------------------------------------------------//
